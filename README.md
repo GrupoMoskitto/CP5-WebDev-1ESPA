@@ -9,3 +9,10 @@ Checkpoint 5 - WebDev - Tema Loja de Bicicletas Elétricas
 - [**Gabriel Couto**](https://github.com/rouri404) - RM559579
 - [**Gabriel Kato**](https://github.com/kato8088) - RM560000
 - [**João Vitor**](https://github.com/joaomatosq) - RM559246
+
+## Tecnologias Utilizadas:
+- React JS + Vite
+- TailWind CSS
+- Node.js (servidor)
+- HTML 5
+- JavaScript
