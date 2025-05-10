@@ -5,4 +5,4 @@ db.serialize(() => {
   db.run("CREATE TABLE bicicletas (id TEXT PRIMARY KEY, name TEXT, description TEXT, price REAL)");
 });
 
-export default db;
+module.exports = db;
