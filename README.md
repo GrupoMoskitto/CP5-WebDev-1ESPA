@@ -17,5 +17,8 @@ Checkpoint 5 - WebDev - Tema Loja de Bicicletas Elétricas
 - HTML 5
 - JavaScript
 
+## Dependencias do Projeto:
+(colocar as dependencias do NodeJS (backend) e do ReactJS (frontend))
+
 ## Como rodar o projeto:
 (instrucoes para rodar o back e front end do projeto)
