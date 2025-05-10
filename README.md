@@ -1,6 +1,8 @@
 # Checkpoint 5 - Web Development
 Checkpoint 5 - WebDev - Tema Loja de Bicicletas Elétricas
 
+[Link do Repositório na Organização do Grupo Moskitto](https://github.com/GrupoMoskitto/CP5-WebDev-1ESPA)
+
 ## Mestre: 
 - Professor Wellington Cidade
 
@@ -17,8 +19,34 @@ Checkpoint 5 - WebDev - Tema Loja de Bicicletas Elétricas
 - HTML 5
 - JavaScript
 
-## Dependencias do Projeto:
-(colocar as dependencias do NodeJS (backend) e do ReactJS (frontend))
-
 ## Como rodar o projeto:
-(instrucoes para rodar o back e front end do projeto)
+1. Clone o repositório usando o Git Bash com o comando `git clone https://github.com/GrupoMoskitto/CP5-WebDev-1ESPA` ou fazendo o download do arquivo ZIP pelo GitHub.
+
+<hr>
+
+2. Abra o terminal na pasta `backend` .
+3. Instale as dependências com o comando `npm install` .
+4. Execute o servidor NodeJS com o comando `node server.js` .
+
+<hr>
+
+5. Abra outra janela do terminal na pasta `frontend` .
+6. Instale as dependências com o comando `npm install` .
+7. Execute o servidor ReactJS + Vite (frontend) com o comando `npm run dev` .
+8. Acesse o URL `https://localhost:5173` (ou a porta que aparecer no seu console React + Vite).
+9. Pronto!
+
+## Dependencias do Projeto:
+### ReactJS + Vite (FrontEnd):
+- axios
+- react-router-dom
+- tailwindcss
+- uuid
+
+### NodeJS (BackEnd):
+- express
+- nodemon
+- sqlite3
+- uuid
+- body-parser
+- cors
