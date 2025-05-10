@@ -10,8 +10,8 @@ const CardProduto = ({ bicicleta, onEdit, onDelete }) => {
           <span className="text-3xl font-bold text-gray-900">R${bicicleta.price}</span>
         </div>
         <div className="flex justify-between mt-4">
-          <button onClick={() => onEdit(bicicleta)} className="bg-blue-500 text-white p-2 rounded-lg">Editar</button>
-          <button onClick={() => onDelete(bicicleta.id)} className="bg-red-500 text-white p-2 rounded-lg">Deletar</button>
+          <button onClick={() => onEdit(bicicleta)} className="bg-blue-600 text-white p-2 rounded-lg border-1 border-blue-800 hover:bg-blue-800 hover:border-black transition duration-300">Editar</button>
+          <button onClick={() => onDelete(bicicleta.id)} className="bg-red-600 text-white p-2 rounded-lg border-1 border-red-800 hover:bg-red-800 hover:border-black transition duration-300">Deletar</button>
         </div>
       </div>
     </div>
