@@ -28,12 +28,13 @@ const CardProduto = ({ bicicleta, onEdit, onDelete }) => {
       <img className="p-8 rounded-t-lg" src={imagemAleatoria} alt={bicicleta.name} />
       <div className="px-5 pb-5">
         <h5 className="text-xl font-semibold tracking-tight text-gray-900">{bicicleta.name}</h5>
+        <h5 className="text-lg tracking-tight text-gray-700 mb-2">{bicicleta.description}</h5>
         <div className="flex items-center justify-between">
           <span className="text-3xl font-bold text-gray-900">R${bicicleta.price}</span>
         </div>
         <div className="flex justify-between mt-4">
-          <button onClick={() => onEdit(bicicleta)} className="bg-blue-600 text-white p-2 rounded-lg border-1 border-blue-800 hover:bg-blue-800 hover:border-black transition duration-300">Editar</button>
-          <button onClick={() => onDelete(bicicleta.id)} className="bg-red-600 text-white p-2 rounded-lg border-1 border-red-800 hover:bg-red-800 hover:border-black transition duration-300">Deletar</button>
+          <button onClick={() => onEdit(bicicleta)} className="px-5 bg-blue-600 text-white p-2 rounded-lg border-1 border-blue-800 hover:bg-blue-800 hover:border-black transition duration-300">Editar</button>
+          <button onClick={() => onDelete(bicicleta.id)} className="px-5 bg-red-600 text-white p-2 rounded-lg border-1 border-red-800 hover:bg-red-800 hover:border-black transition duration-300">Deletar</button>
         </div>
       </div>
     </div>
