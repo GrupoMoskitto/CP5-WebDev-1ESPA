@@ -16,3 +16,6 @@ Checkpoint 5 - WebDev - Tema Loja de Bicicletas Elétricas
 - Node.js (servidor)
 - HTML 5
 - JavaScript
+
+## Como rodar o projeto:
+(instrucoes para rodar o back e front end do projeto)
