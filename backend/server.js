@@ -37,7 +37,7 @@ app.delete('/bicicletas/:id', (req, res) => {
   res.status(204).send();
 });
 
-// confirmacao da porta do servidor no console
+// debug: confirmacao da porta do servidor no console
 app.listen(PORT, () => {
   console.log(`servidor rodando na porta ${PORT}.`);
 });
